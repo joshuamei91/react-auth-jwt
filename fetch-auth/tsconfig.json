@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "ES2020",
+      "declaration": true,
+      "outDir": "./lib/esm",
+      "strict": true,
+      "esModuleInterop": true,
+    },
+    "include": ["src", "src/index.ts"],
+    "exclude": ["node_modules", "**/__tests__/*", "lib"]
+  }
+  
